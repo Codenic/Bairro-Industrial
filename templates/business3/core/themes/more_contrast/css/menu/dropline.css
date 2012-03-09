@@ -1,0 +1,92 @@
+#jasdl-mainnav a {
+color:#646464;
+margin:0 3px 0 3px;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	color: #000;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#jasdl-mainnav {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#jasdl-mainnav li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin: 0;
+    overflow: visible;
+    padding: 0 0 5px;
+}
+
+#ja-subnav ul li.haschild a.haschild:hover span.menu-title{}
+
+#ja-subnav ul li.haschild a.haschild span.menu-title{}
+
+#ja-subnav ul.active li a {}
+
+#ja-subnav ul.active li a:hover{color:#1B9485;}
+
+#ja-subnav ul.active{}
+
+#ja-subnav ul li a:hover{color:#1B9485;}
+
+#ja-subnav ul li.active a.active, #ja-subnav ul li.active a.active:hover, #ja-subnav ul li.active a.active:active, #ja-subnav ul li.active a.active:focus{
+color:#1B9485;
+font-weight:normal;
+padding:0;
+}
+
+
+#ja-subnav ul li a {
+    color: #646464;
+    display: block;
+    text-decoration: none;
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+color:#fff;
+background:url(../../images/top-menu.png) repeat-x center center;
+border-radius:9px;
+}
+
+/* Sub Nav ---*/
+#ja-subnav { background:#F0F0F0 ;border-top:1px solid #ccc;}
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	border:2px solid #E1E1E1;
+	background:#FFF;
+	top:44px;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul li.hover ul{}
+
+#ja-subnav ul li ul li:hover{padding-left:13px;}
+
+#ja-subnav ul li ul li {
+	border-top: 1px solid #F3F3F3;
+}
+
+#ja-subnav li{
+display: block;
+float: left;margin:6px 3px 0 3px;padding:7px 8px 7px 6px;
+	-moz-transition: all 0.8s ease 0s;
+	-webkit-transition:all 0.8s ease 0s;
+	-o-transition: all 0.8s ease 0s;
+}
+
+#ja-subnav ul li ul li:first-child {
+	border: 0;
+}
